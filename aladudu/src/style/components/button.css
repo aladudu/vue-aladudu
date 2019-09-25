@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.middle {
+    width: 85px;
+    height: 35px;
+    background: pink;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.middle:hover{
+    background: red;
+}
