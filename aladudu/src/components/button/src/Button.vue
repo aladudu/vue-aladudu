@@ -1,5 +1,5 @@
 <template>
-    <div id="button" class="middle" @click="btnEvent()">
+    <div id="button" :class="size" @click="btnEvent()">
         {{btnMessage}}
     </div>
 </template>
@@ -8,7 +8,8 @@ import '../../../style/components/button.css'
 export default {
     data() {
         return {
-            btnMessage: "确定"
+            btnMessage: "确定",
+            size: "middle"
         }
     },
     methods: {

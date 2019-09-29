@@ -1,6 +1,24 @@
 @charset "utf-8";
+/* 按钮尺寸 */
 
-.middle {
+/* 按钮尺寸小 */
+.small{
+    width: 65px;
+    height: 35px;
+    background: pink;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.small:hover{
+    background: blueviolet;
+}
+/* 按钮尺寸中等 */
+.middle{
     width: 85px;
     height: 35px;
     background: pink;
@@ -15,3 +33,20 @@
 .middle:hover{
     background: red;
 }
+/* 按钮尺寸大 */
+.big{
+    width: 200px;
+    height: 35px;
+    background: pink;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+.big:hover{
+    background: yellow;
+}
+
