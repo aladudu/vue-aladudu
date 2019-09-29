@@ -14,7 +14,7 @@ export default {
     },
     methods: {
         btnEvent() {
-            alert("点击")
+            alert("点击事件")
         }
     }
 }
